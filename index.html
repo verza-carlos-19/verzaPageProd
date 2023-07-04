@@ -1,224 +1,267 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shorcut icon" href="./imagenes/logo oficial dakar.png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shorcut icon" href="./imagenes/logo oficial dakar.png" />
     <title>Pagina de carlos verza</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./estilos/estilos.css">
-    <script src="https://kit.fontawesome.com/bad9a4e2e1.js" crossorigin="anonymous"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./estilos/estilos.css" />
+    <script
+      src="https://kit.fontawesome.com/bad9a4e2e1.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- CSS only -->
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-            <nav class="navbar navbar-expand-sm">
-                <a class="navbar-brand" href="#"><img src="./imagenes/logo posta posta.png" alt="" width="50px"></a>
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a href="#historia">
-                            <button>HISTORIA
-                                <span></span>
-                            </button>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#palmares">
-                            <button>PALMARES
-                                <span></span>
-                            </button>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        <div class="encabezado-slider">
-            <!--comienzo de slider-->
-            <div class="slider">
-                <div class="slides">
-                    <!--radio buttons comienzo-->
-                    <input type="radio" name="radio-btn" id="radio1">
-                    <input type="radio" name="radio-btn" id="radio2">
-                    <input type="radio" name="radio-btn" id="radio3">
-                    <input type="radio" name="radio-btn" id="radio4">
-                    <!--radio buttons final-->
-                    <!--slides comienzo-->
-                    <div class="slide first">
-                        <img src="./imagenes/1.jpeg" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="./imagenes/2.jpg" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="./imagenes/3.jpeg" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="./imagenes/4.jpeg" alt="">
-                    </div>
-                    <!--slides final-->
-                    <!--automatic navigation comienzo-->
-                    <div class="navigation-auto">
-                        <div class="auto-btn1"></div>
-                        <div class="auto-btn2"></div>
-                        <div class="auto-btn3"></div>
-                        <div class="auto-btn4"></div>
-                    </div>
-                    <!--automatic navigation final-->
-                    <!--navegacion manual com-->
-                    <div class="navigation-manual">
-                        <label for="radio1" class="manual-btn"></label>
-                        <label for="radio2" class="manual-btn"></label>
-                        <label for="radio3" class="manual-btn"></label>
-                        <label for="radio4" class="manual-btn"></label>
-                    </div>
-                    <!--navegacion manual fin-->
-                </div>
-            </div>
-            <!--final de slider-->
-            <script type="text/javascript">
-                var counter = 1;
-                setInterval(function () {
-                    document.getElementById('radio' + counter).checked = true;
-                    counter++;
-                    if (counter > 4) {
-                        counter = 1;
-                    }
-                }, 5000);
-            </script>
+      <nav class="navbar">
+        <img src="./imagenes/logo-desktop-o.png" alt="" width="50px" />
+        <div class="btns-nav">
+          <button>
+            HISTORIA
+            <span></span>
+          </button>
+          <button>
+            PALMARES
+            <span></span>
+          </button>
         </div>
+      </nav>
+      <div class="encabezado-slider">
+        <!--comienzo de slider-->
+        <div class="slider">
+          <div class="slides">
+            <!--radio buttons comienzo-->
+            <input type="radio" name="radio-btn" id="radio1" />
+            <input type="radio" name="radio-btn" id="radio2" />
+            <input type="radio" name="radio-btn" id="radio3" />
+            <input type="radio" name="radio-btn" id="radio4" />
+            <!--radio buttons final-->
+            <!--slides comienzo-->
+            <div class="slide first">
+              <img src="./imagenes/1.jpeg" alt="" />
+            </div>
+            <div class="slide">
+              <img src="./imagenes/2.jpg" alt="" />
+            </div>
+            <div class="slide">
+              <img src="./imagenes/3.jpeg" alt="" />
+            </div>
+            <div class="slide">
+              <img src="./imagenes/4.jpeg" alt="" />
+            </div>
+            <!--slides final-->
+            <!--automatic navigation comienzo-->
+            <div class="navigation-auto">
+              <div class="auto-btn1"></div>
+              <div class="auto-btn2"></div>
+              <div class="auto-btn3"></div>
+              <div class="auto-btn4"></div>
+            </div>
+            <!--automatic navigation final-->
+            <!--navegacion manual com-->
+            <div class="navigation-manual">
+              <label for="radio1" class="manual-btn"></label>
+              <label for="radio2" class="manual-btn"></label>
+              <label for="radio3" class="manual-btn"></label>
+              <label for="radio4" class="manual-btn"></label>
+            </div>
+            <!--navegacion manual fin-->
+          </div>
+        </div>
+        <!--final de slider-->
+        <script type="text/javascript">
+          var counter = 1;
+          setInterval(function () {
+            document.getElementById("radio" + counter).checked = true;
+            counter++;
+            if (counter > 4) {
+              counter = 1;
+            }
+          }, 5000);
+        </script>
+      </div>
     </header>
     <main>
-        <div id="historia" class="container-fluid">
-            <h2>HISTORIA</h2>
-            <p>Carlos Verza es un piloto chaqueño, apodado “el yaguareté” en el mundo del Dakar. Verza se abrió camino
-                con mucho esfuerzo debutando en 2015 y -excepto en 2016- llegó a la meta en todas las ediciones, siendo
-                su mejor resultado un noveno puesto. En 2019 y 2020 decidió probar suerte en la categoría Originals y en
-                ambas ediciones fue el primero y único arribado en la categoría Quads, lo que habla de su destreza y
-                habilidad para sobrevivir a la carrera más dura del planeta, aun con limitados medios económicos. El
-                desierto saudí lo conquistó por completo en 2020, pese a tripular un quad 4x4 que le causó muchos
-                problemas mecánicos y pinchaduras. En 2021, Verza no pudo estar presente, ya que el temprano cierre de
-                fronteras en Arabia Saudita le impidió llegar a la cita de enero. Tras esa gran desilusión, Verza empezó
-                a preparar la próxima edición en la que estará a bordo de un Yamaha Raptor 700, al que define como una
-                máquina muy confiable. También se anima a pensar en su participación a futuro en la categoría Dakar
-                Classic, luego de haber competido en el SARR 2021 en la categoría Autos. Respaldado por el deporte de su
-                provincia, “el Yaguareté” prometio dar pelea para representarlos de la mejor manera con un lugar entre
-                los diez primeros, logranso en la edicion 2022 llegar en el 5° puesto, siendo esta su mejor
-                participacion</p>
-            <h2>FOTOS</h2>
-            <div class="row">
-                <div class="col-lg-3">
-                    <img class="video-sty" src="./imagenes/dakar 2017.jpg" alt="" width="300px" height="200px">
-                </div>
-                <div class="col-lg-3">
-                    <img class="video-sty" src="./imagenes/dakar 20199.jpeg" alt="" width="300px" height="200px">
-                </div>
-                <div class="col-lg-3">
-                    <img class="video-sty" src="./imagenes/dakar 2020.jpeg" alt="" width="300px" height="200px">
-                </div>
-                <div class="col-lg-3">
-                    <img class="video-sty" src="./imagenes/f5674.jpg" alt="" width="300px" height="200px">
-                </div>
-            </div>
-        </div>
-        <div id="video">
-            <div class="video-emb">
+      <div class="fotos">
+        <h2>FOTOS</h2>
+        <div class="galeria">
+          <img
+            class="video-sty"
+            src="./imagenes/dakar 2017.jpg"
+            alt=""
+            width="300px"
+            height="200px"
+          />
+          <img
+            class="video-sty"
+            src="./imagenes/dakar 20199.jpeg"
+            alt=""
+            width="300px"
+            height="200px"
+          />
 
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/ZRzuF-Vu-9g"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen class="video-sty"></iframe>
+          <img
+            class="video-sty"
+            src="./imagenes/dakar 2020.jpeg"
+            alt=""
+            width="300px"
+            height="200px"
+          />
 
-            </div>
-            <p class="epigrafo">Esta entrevista se la realizaron a carlos luego de que el llegara a Arabia para
-                participar de su septimo
-                Dakar</p>
-
+          <img
+            class="video-sty"
+            src="./imagenes/f5674.jpg"
+            alt=""
+            width="300px"
+            height="200px"
+          />
         </div>
-        <div id="palmares" class="container-fluid">
-            <h2 id="titulop">palmares</h2>
-            <table id="tabla" class="table">
-                <thead>
-                    <tr>
-                        <th>Carreras</th>
-                        <th>Pais/Paises</th>
-                        <th>Año</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>DAKAR</td>
-                        <td>Arabia Saudita, Argentina, Paraguay, Bolivia, Peru, Chile</td>
-                        <td>2015-2016-2017-2018-2019-2020--2022</td>
-                    </tr>
-                    <tr>
-                        <td>DESAFIO RUTA 40</td>
-                        <td>Argentina</td>
-                        <td>2013-2014-2015-2016-2018</td>
-                    </tr>
-                    <tr>
-                        <td>BAJA INKA</td>
-                        <td>Peru</td>
-                        <td>2018</td>
-                    </tr>
-                    <tr>
-                        <td>DESAFIO GUARANI</td>
-                        <td>Paraguay</td>
-                        <td>2013-2014</td>
-                    </tr>
-                    <tr>
-                        <td>S.A.R.R</td>
-                        <td>Argentina</td>
-                        <td>2021-2022</td>
-                    </tr>
-                    <tr>
-                        <td>ENDURO DEL VERANO</td>
-                        <td>Argentina</td>
-                        <td>2013-2014</td>
-                    </tr>
-                    <tr>
-                        <td>CAMPEONATO ARGENTINO DE RALLY CROSS COUNTRY</td>
-                        <td>Argentina</td>
-                        <td>2012-2013-2014-2015-2016-2017-2018-2019</td>
-                    </tr>
-                </tbody>
-            </table>
+      </div>
+      <section class="historia">
+        <aside class="textos">
+          <h2>HISTORIA</h2>
+          <span class="material-symbols-outlined"> format_quote </span>
+          <p>
+            Carlos Verza es un piloto chaqueño, apodado “el yaguareté” en el
+            mundo del Dakar. Verza se abrió camino con mucho esfuerzo debutando
+            en 2015 y -excepto en 2016- llegó a la meta en todas las ediciones,
+            siendo su mejor resultado un noveno puesto. En 2019 y 2020 decidió
+            probar suerte en la categoría Originals y en ambas ediciones fue el
+            primero y único arribado en la categoría Quads, lo que habla de su
+            destreza y habilidad para sobrevivir a la carrera más dura del
+            planeta, aun con limitados medios económicos. El desierto saudí lo
+            conquistó por completo en 2020, pese a tripular un quad 4x4 que le
+            causó muchos problemas mecánicos y pinchaduras. En 2021, Verza no
+            pudo estar presente, ya que el temprano cierre de fronteras en
+            Arabia Saudita le impidió llegar a la cita de enero. Tras esa gran
+            desilusión, Verza empezó a preparar la próxima edición en la que
+            estará a bordo de un Yamaha Raptor 700, al que define como una
+            máquina muy confiable. También se anima a pensar en su participación
+            a futuro en la categoría Dakar Classic, luego de haber competido en
+            el SARR 2021 en la categoría Autos. Respaldado por el deporte de su
+            provincia, “el Yaguareté” prometio dar pelea para representarlos de
+            la mejor manera con un lugar entre los diez primeros, logranso en la
+            edicion 2022 llegar en el 5° puesto, siendo esta su mejor
+            participacion
+          </p>
+        </aside>
+        <div class="video">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/ZRzuF-Vu-9g"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            class="video-sty"
+          ></iframe>
+          <p>
+            Esta entrevista se la realizaron a carlos luego de que el llegara a
+            Arabia para participar de su septimo Dakar
+          </p>
         </div>
+      </section>
+      <div id="palmares">
+        <h2 id="titulop">palmares</h2>
+        <table id="tabla" class="table">
+          <thead>
+            <tr>
+              <th>Carreras</th>
+              <th>Pais/Paises</th>
+              <th>Año</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>DAKAR</td>
+              <td>Arabia Saudita, Argentina, Paraguay, Bolivia, Peru, Chile</td>
+              <td>2015-2016-2017-2018-2019-2020-2022-2023</td>
+            </tr>
+            <tr>
+              <td>DESAFIO RUTA 40</td>
+              <td>Argentina</td>
+              <td>2013-2014-2015-2016-2018</td>
+            </tr>
+            <tr>
+              <td>BAJA INKA</td>
+              <td>Peru</td>
+              <td>2018</td>
+            </tr>
+            <tr>
+              <td>DESAFIO GUARANI</td>
+              <td>Paraguay</td>
+              <td>2013-2014</td>
+            </tr>
+            <tr>
+              <td>S.A.R.R</td>
+              <td>Argentina</td>
+              <td>2021-2022-2023</td>
+            </tr>
+            <tr>
+              <td>ENDURO DEL VERANO</td>
+              <td>Argentina</td>
+              <td>2013-2014</td>
+            </tr>
+            <tr>
+              <td>CAMPEONATO ARGENTINO DE RALLY CROSS COUNTRY</td>
+              <td>Argentina</td>
+              <td>2012-2013-2014-2015-2016-2017-2018-2019</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </main>
     <footer class="pie-pagina">
-        <div class="grupo-1">
-            <div class="box">
-                <figure>
-                    <a href="#" class="logof">
-                        <img src="./imagenes/logo posta posta.png" alt="logo" class="logof">
-                    </a>
-                </figure>
-            </div>
-            <div class="box">
-                <h2>SOBRE NOSOTROS</h2>
-                <p>Pagina oficial del piloto mecanico internacional Carlos Alejandro Verza</p>
-                <p>Esta pagina compartira datos con el Verza Rally Team</p>
-            </div>
-            <div class="box">
-                <h2>SIGUENOS</h2>
-                <div class="red-social">
-                    <a href="#" class="fa fa-facebook"></a>
-                    <a href="#" class="fa fa-instagram"></a>
-                    <a href="#" class="fa fa-youtube"></a>
-                </div>
-            </div>
+      <div class="grupo-1">
+        <div class="box">
+          <figure>
+            <a href="#" class="logof">
+              <img
+                src="./imagenes/logo posta posta.png"
+                alt="logo"
+                class="logof"
+              />
+            </a>
+          </figure>
         </div>
-        <div class="grupo-2">
-            <small>&copy; <b>verza.dev</b> - Todos Los Derechos Reservados.</small>
+        <div class="box">
+          <h2>SOBRE NOSOTROS</h2>
+          <p>
+            Pagina oficial del piloto mecanico internacional Carlos Alejandro
+            Verza
+          </p>
+          <p>Esta pagina compartira datos con el Verza Rally Team</p>
         </div>
+        <div class="box">
+          <h2>SIGUENOS</h2>
+          <div class="red-social">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-youtube"></a>
+          </div>
+        </div>
+      </div>
+      <div class="grupo-2">
+        <small>&copy; <b>verza.dev</b> - Todos Los Derechos Reservados.</small>
+      </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-        crossorigin="anonymous"></script>
-</body>
-<!-- JavaScript Bundle with Popper -->
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+  <!-- JavaScript Bundle with Popper -->
 </html>
